@@ -1,0 +1,9 @@
+{
+  "name": "ISHTAR - Luxury & AI Commerce",
+  "description": "A high-end dropshipping platform for luxury watches, makeup, bags, and perfumes, featuring advanced Gemini AI integration for styling, content creation, and operations.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}

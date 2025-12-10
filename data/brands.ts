@@ -1,0 +1,395 @@
+
+import { Brand } from '../types';
+
+export const brands: Brand[] = [
+    // --- WATCHES ---
+    {
+        id: 'Rolex',
+        name_en: 'Rolex',
+        name_ar: 'رولكس',
+        description_en: 'Pioneer of the wristwatch since 1905.',
+        description_ar: 'رائدة ساعات اليد منذ عام 1905.',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/95/Rolex_logo.svg/1200px-Rolex_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland',
+        is_featured: true,
+        supplier_id: 1
+    },
+    {
+        id: 'Patek Philippe',
+        name_en: 'Patek Philippe',
+        name_ar: 'باتيك فيليب',
+        description_en: 'The last family-owned independent Genevan watch manufacturer.',
+        description_ar: 'آخر مصنع ساعات جنيف مستقل مملوك لعائلة.',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/Patek_Philippe_Logo.svg/1200px-Patek_Philippe_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1639037466107-1601a4bc5759?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland',
+        is_featured: true
+    },
+    {
+        id: 'Audemars Piguet',
+        name_en: 'Audemars Piguet',
+        name_ar: 'أوديمار بيغيه',
+        description_en: 'To Break the Rules, You Must First Master Them.',
+        description_ar: 'لكسر القواعد، عليك أولاً إتقانها.',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Audemars_Piguet_logo.svg/1200px-Audemars_Piguet_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1619134778706-c27533cdcd34?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland',
+        is_featured: true
+    },
+    {
+        id: 'Vacheron Constantin',
+        name_en: 'Vacheron Constantin',
+        name_ar: 'فاشيرون كونستانتين',
+        description_en: 'One of the oldest watch manufacturers in the world.',
+        description_ar: 'واحدة من أقدم مصنعي الساعات في العالم.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Vacheron_Constantin_Logo.svg/2560px-Vacheron_Constantin_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1547996663-0e5e1c9a23f2?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland'
+    },
+    {
+        id: 'Richard Mille',
+        name_en: 'Richard Mille',
+        name_ar: 'ريتشارد ميل',
+        description_en: 'A racing machine on the wrist.',
+        description_ar: 'آلة سباق على المعصم.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Richard_Mille_logo.svg/2560px-Richard_Mille_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1620625515032-608143f8b451?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland'
+    },
+    {
+        id: 'Hublot',
+        name_en: 'Hublot',
+        name_ar: 'هوبلو',
+        description_en: 'The Art of Fusion.',
+        description_ar: 'فن الاندماج.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Hublot_Logo.svg/2560px-Hublot_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland'
+    },
+    {
+        id: 'Omega',
+        name_en: 'Omega',
+        name_ar: 'أوميغا',
+        description_en: 'Exact time for life.',
+        description_ar: 'الوقت الدقيق للحياة.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Omega_Logo.svg/2560px-Omega_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1594539655829-9ba305a463a0?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland'
+    },
+    {
+        id: 'Breitling',
+        name_en: 'Breitling',
+        name_ar: 'بريتلينغ',
+        description_en: 'Instruments for Professionals.',
+        description_ar: 'أدوات للمحترفين.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Breitling_logo.svg/2560px-Breitling_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland'
+    },
+    {
+        id: 'Cartier',
+        name_en: 'Cartier',
+        name_ar: 'كارتييه',
+        description_en: 'The Watchmaker of Shapes.',
+        description_ar: 'صانع ساعات الأشكال.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Cartier_logo.svg/1200px-Cartier_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'France'
+    },
+    {
+        id: 'IWC',
+        name_en: 'IWC Schaffhausen',
+        name_ar: 'آي دبليو سي',
+        description_en: 'Engineering time since 1868.',
+        description_ar: 'هندسة الوقت منذ 1868.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/IWC_Schaffhausen_Logo.svg/2560px-IWC_Schaffhausen_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1524592094714-0f0654e20314?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Watches',
+        country: 'Switzerland'
+    },
+
+    // --- BAGS & FASHION ---
+    {
+        id: 'Hermès',
+        name_en: 'Hermès',
+        name_ar: 'هيرميس',
+        description_en: 'Contemporary artisan since 1837.',
+        description_ar: 'حرفي معاصر منذ 1837.',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Herm%C3%A8s_logo.svg/1200px-Herm%C3%A8s_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1594223274512-ad4803739b7c?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'France',
+        is_featured: true
+    },
+    {
+        id: 'Chanel',
+        name_en: 'Chanel',
+        name_ar: 'شانيل',
+        description_en: 'Fashion, Fragrance, Beauty, Watches, Fine Jewelry.',
+        description_ar: 'أزياء، عطور، جمال، ساعات، مجوهرات راقية.',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Chanel_logo_interlocking_cs.svg/1200px-Chanel_logo_interlocking_cs.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'France',
+        is_featured: true
+    },
+    {
+        id: 'Louis Vuitton',
+        name_en: 'Louis Vuitton',
+        name_ar: 'لويس فويتون',
+        description_en: 'The Art of Travel.',
+        description_ar: 'فن السفر.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Louis_Vuitton_logo_and_wordmark.svg/2560px-Louis_Vuitton_logo_and_wordmark.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1595991209249-1750361b4297?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'France'
+    },
+    {
+        id: 'Gucci',
+        name_en: 'Gucci',
+        name_ar: 'غوتشي',
+        description_en: 'Redefining luxury for the 21st century.',
+        description_ar: 'إعادة تعريف الفخامة للقرن الحادي والعشرين.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Gucci_Logo.svg/2560px-Gucci_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1560243563-062bfc001d68?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'Italy'
+    },
+    {
+        id: 'Dior',
+        name_en: 'Dior',
+        name_ar: 'ديور',
+        description_en: 'Designer of dreams.',
+        description_ar: 'مصمم الأحلام.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Christian_Dior_logo.svg/2560px-Christian_Dior_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1550614000-4b9519e07d0f?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'France'
+    },
+    {
+        id: 'Fendi',
+        name_en: 'Fendi',
+        name_ar: 'فندي',
+        description_en: 'Roman luxury house.',
+        description_ar: 'دار الفخامة الرومانية.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Fendi_logo.svg/2560px-Fendi_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1599553733003-4903328227b9?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'Italy'
+    },
+    {
+        id: 'Saint Laurent',
+        name_en: 'Saint Laurent',
+        name_ar: 'سان لوران',
+        description_en: 'French luxury fashion house.',
+        description_ar: 'دار أزياء فرنسية فاخرة.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Yves_Saint_Laurent_Logo.svg/2560px-Yves_Saint_Laurent_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1601924582970-9238f1b5a009?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'France'
+    },
+    {
+        id: 'Bottega Veneta',
+        name_en: 'Bottega Veneta',
+        name_ar: 'بوتيغا فينيتا',
+        description_en: 'Inspiring individuality with innovative craftsmanship.',
+        description_ar: 'إلهام الفردية بحرفية مبتكرة.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Bottega_Veneta_logo.svg/2560px-Bottega_Veneta_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1618453292459-53424b68bb45?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'Italy'
+    },
+    {
+        id: 'Prada',
+        name_en: 'Prada',
+        name_ar: 'برادا',
+        description_en: 'Thinking fashion since 1913.',
+        description_ar: 'التفكير في الموضة منذ 1913.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Prada-Logo.svg/2560px-Prada-Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1575296505299-6d8b67272719?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'Italy'
+    },
+    {
+        id: 'Valentino',
+        name_en: 'Valentino',
+        name_ar: 'فالنتينو',
+        description_en: 'Maison Valentino.',
+        description_ar: 'دار فالنتينو.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Valentino_logo.svg/2560px-Valentino_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Bags',
+        country: 'Italy'
+    },
+    
+    // --- JEWELRY ---
+    {
+        id: 'Tiffany & Co.',
+        name_en: 'Tiffany & Co.',
+        name_ar: 'تيفاني آند كو',
+        description_en: 'Expertly crafting jewelry for the world\'s greatest love stories since 1837.',
+        description_ar: 'صياغة المجوهرات ببراعة لأعظم قصص الحب في العالم منذ 1837.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tiffany_Co_logo.svg/2560px-Tiffany_Co_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1599643478518-17488fbbcd75?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Jewelry',
+        country: 'USA'
+    },
+    {
+        id: 'Van Cleef & Arpels',
+        name_en: 'Van Cleef & Arpels',
+        name_ar: 'فان كليف أند آربلز',
+        description_en: 'French luxury jewelry, watch, and perfume company.',
+        description_ar: 'شركة فرنسية للمجوهرات والساعات والعطور الفاخرة.',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a3/Van_Cleef_%26_Arpels_logo.svg/1200px-Van_Cleef_%26_Arpels_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1617038224531-16d44a2b90d6?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Jewelry',
+        country: 'France',
+        is_featured: true
+    },
+    {
+        id: 'Bvlgari',
+        name_en: 'Bvlgari',
+        name_ar: 'بولغري',
+        description_en: 'Italian luxury brand known for its jewelry, watches, fragrances, accessories, and leather goods.',
+        description_ar: 'علامة تجارية إيطالية فاخرة تشتهر بالمجوهرات والساعات والعطور.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bulgari_logo.svg/2560px-Bulgari_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Jewelry',
+        country: 'Italy'
+    },
+    {
+        id: 'Chopard',
+        name_en: 'Chopard',
+        name_ar: 'شوبارد',
+        description_en: 'Swiss manufacturer and retailer of luxury watches, jewelry and accessories.',
+        description_ar: 'الشركة السويسرية المصنعة وتجارة التجزئة للساعات الفاخرة والمجوهرات.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Chopard_logo.svg/2560px-Chopard_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1611591437281-460bfbe1220a?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Jewelry',
+        country: 'Switzerland'
+    },
+    {
+        id: 'Graff',
+        name_en: 'Graff',
+        name_ar: 'غراف',
+        description_en: 'The most fabulous jewels in the world.',
+        description_ar: 'أروع المجوهرات في العالم.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Graff_Diamonds_Logo.svg/2560px-Graff_Diamonds_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Jewelry',
+        country: 'UK'
+    },
+
+    // --- BEAUTY ---
+    {
+        id: 'Dior Beauty',
+        name_en: 'Dior Beauty',
+        name_ar: 'ديور بيوتي',
+        description_en: 'Fragrance, Make Up, Skincare.',
+        description_ar: 'العطور، المكياج، العناية بالبشرة.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Christian_Dior_logo.svg/2560px-Christian_Dior_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1571781926291-280553d3660b?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Beauty',
+        country: 'France'
+    },
+    {
+        id: 'Chanel Beauty',
+        name_en: 'Chanel Beauty',
+        name_ar: 'شانيل بيوتي',
+        description_en: 'The ultimate house of luxury beauty.',
+        description_ar: 'بيت الجمال الفاخر المطلق.',
+        logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/9/92/Chanel_logo_interlocking_cs.svg/1200px-Chanel_logo_interlocking_cs.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1596462502278-27bfdd403348?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Beauty',
+        country: 'France'
+    },
+    {
+        id: 'YSL Beauty',
+        name_en: 'YSL Beauty',
+        name_ar: 'إيف سان لوران بيوتي',
+        description_en: 'Subversive, couture, luxury beauty.',
+        description_ar: 'جمال فاخر، راقٍ ومتمرد.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Yves_Saint_Laurent_Logo.svg/2560px-Yves_Saint_Laurent_Logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1571781926291-280553d3660b?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Beauty',
+        country: 'France'
+    },
+    {
+        id: 'Tom Ford Beauty',
+        name_en: 'Tom Ford Beauty',
+        name_ar: 'توم فورد بيوتي',
+        description_en: '21st Century Luxury.',
+        description_ar: 'فخامة القرن الحادي والعشرين.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Tom_Ford_logo.svg/2560px-Tom_Ford_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=1600',
+        group: 'LUXURY',
+        category: 'Beauty',
+        country: 'USA'
+    },
+    {
+        id: 'Huda Beauty',
+        name_en: 'Huda Beauty',
+        name_ar: 'هدى بيوتي',
+        description_en: 'Beauty for everyone.',
+        description_ar: 'الجمال للجميع.',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Huda_Beauty_logo.svg/2560px-Huda_Beauty_logo.svg.png',
+        cover_image: 'https://images.unsplash.com/photo-1596462502278-27bfdd403348?q=80&w=1600',
+        group: 'REGIONAL',
+        category: 'Beauty',
+        country: 'UAE'
+    },
+    
+    // --- ISHTAR EXCLUSIVE ---
+    {
+        id: 'Maison Ishtar',
+        name_en: 'Maison Ishtar',
+        name_ar: 'دار عشتار',
+        description_en: 'The pinnacle of personalized luxury. Maison Ishtar combines heritage craftsmanship with modern AI styling.',
+        description_ar: 'قمة الفخامة الشخصية. تجمع دار عشتار بين الحرفية التراثية والذكاء الاصطناعي.',
+        logo: '', // Use fallback
+        cover_image: 'https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1600&auto=format&fit=crop',
+        group: 'ISHTAR',
+        category: 'Fashion',
+        country: 'France',
+        is_featured: true,
+        supplier_id: 3
+    }
+];

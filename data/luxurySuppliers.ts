@@ -1,0 +1,117 @@
+
+import { LuxurySupplier } from '../types';
+
+export const luxurySuppliers: LuxurySupplier[] = [
+    {
+        supplier_id: 'sup_brandsgateway',
+        supplier_name: 'BrandsGateway',
+        website_url: 'https://brandsgateway.com',
+        region: 'Global',
+        country: 'Sweden',
+        hq_country: 'Sweden',
+        supported_markets: ['EU', 'UK', 'USA', 'Worldwide'],
+        main_categories: ['fashion', 'bags', 'shoes', 'accessories'],
+        is_dropshipping: true,
+        authenticity_claim: 'Authentic designer brands (120+ brands, EU + US warehouses)',
+        integration_type: 'API / CSV',
+        status: 'Approved'
+    },
+    {
+        supplier_id: 'sup_brandsdistribution',
+        supplier_name: 'BrandsDistribution / BDroppy',
+        website_url: 'https://www.brandsdistribution.com',
+        region: 'EU',
+        country: 'Italy',
+        hq_country: 'Italy',
+        supported_markets: ['EU', 'UK', 'USA'],
+        main_categories: ['designer fashion', 'bags', 'shoes', 'accessories'],
+        is_dropshipping: true,
+        authenticity_claim: '100% original designer clothing & accessories',
+        integration_type: 'API / BDroppy',
+        status: 'Approved'
+    },
+    {
+        supplier_id: 'sup_griffati',
+        supplier_name: 'B2B Griffati',
+        website_url: 'https://www.griffati.com',
+        region: 'EU',
+        country: 'Italy',
+        hq_country: 'Italy',
+        supported_markets: ['EU', 'UK', 'USA'],
+        main_categories: ['designer clothing', 'bags', 'shoes', 'accessories'],
+        is_dropshipping: true,
+        authenticity_claim: '10,000+ designer products from 300+ brands',
+        integration_type: 'API / CSV',
+        status: 'Approved'
+    },
+    {
+        supplier_id: 'sup_luxury_dist',
+        supplier_name: 'Luxury Distribution',
+        website_url: 'https://luxury-distribution.com',
+        region: 'EU',
+        country: 'Italy',
+        hq_country: 'Italy',
+        supported_markets: ['EU', 'UK', 'USA', 'GCC'],
+        main_categories: ['clothing', 'shoes', 'bags', 'watches', 'jewelry', 'perfumes'],
+        is_dropshipping: true,
+        authenticity_claim: 'High-end brands via live B2B catalog',
+        integration_type: 'API / Shopify',
+        status: 'Approved'
+    },
+    {
+        supplier_id: 'sup_peppela',
+        supplier_name: 'Peppela',
+        website_url: 'https://peppela.com',
+        region: 'EU',
+        country: 'Italy',
+        hq_country: 'Italy',
+        supported_markets: ['EU', 'UK', 'USA'],
+        main_categories: ['designer fashion', 'accessories'],
+        is_dropshipping: true,
+        authenticity_claim: 'Designer clothing distributor and drop-shipper',
+        integration_type: 'CSV / API',
+        status: 'Approved'
+    },
+    {
+        supplier_id: 'sup_kids_dist',
+        supplier_name: 'KidsDistribution',
+        website_url: 'https://www.kidsdistribution.com',
+        region: 'EU',
+        country: 'Italy',
+        hq_country: 'Italy',
+        supported_markets: ['EU', 'UK', 'USA'],
+        main_categories: ['kids designer clothing'],
+        is_dropshipping: true,
+        authenticity_claim: 'Children’s clothing from top high fashion brands',
+        integration_type: 'CSV / Plugins',
+        status: 'Approved'
+    },
+    {
+        supplier_id: 'sup_hertwill',
+        supplier_name: 'Hertwill',
+        website_url: 'https://hertwill.com',
+        region: 'Global', 
+        country: 'Estonia',
+        hq_country: 'Estonia',
+        supported_markets: ['EU', 'UK', 'USA'],
+        main_categories: ['premium EU/US brands', 'apparel', 'beauty'],
+        is_dropshipping: true,
+        authenticity_claim: 'Premium European & US brands with EU & US warehouses',
+        integration_type: 'Shopify / WooCommerce app',
+        status: 'Approved'
+    },
+    {
+        supplier_id: 'sup_moda',
+        supplier_name: 'Moda Dropship',
+        website_url: 'https://www.modadropship.com',
+        region: 'UK',
+        country: 'United Kingdom',
+        hq_country: 'United Kingdom',
+        supported_markets: ['UK', 'EU'],
+        main_categories: ['women’s clothing', 'footwear'],
+        is_dropshipping: true,
+        authenticity_claim: 'UK fashion dropshipping with fast shipping for UK market',
+        integration_type: 'Shopify',
+        status: 'Approved'
+    }
+];

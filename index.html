@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISHTAR | Luxury AI Commerce</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              serif: ['"Playfair Display"', 'serif'],
+              sans: ['"Inter"', '"Cairo"', 'sans-serif'],
+            },
+            colors: {
+              gold: {
+                50: '#FDFBF7',
+                100: '#F7F1E6',
+                300: '#E6D5B8',
+                400: '#D4B875',
+                500: '#C9A646', // ISHTAR Gold
+                600: '#A88B5D',
+                700: '#8C734B',
+                900: '#5C4826',
+              },
+              neutral: {
+                950: '#050505', // Deep Black
+                900: '#111111', // Primary Text
+                800: '#333333',
+                500: '#555555', // Secondary Text
+                100: '#F6F4EF', // ISHTAR Pearl
+                50: '#FFFFFF',
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.31.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-[#F6F4EF] text-[#111111] antialiased font-sans selection:bg-[#C9A646] selection:text-white">
+    <div id="root"></div>
+  </body>
+</html>
